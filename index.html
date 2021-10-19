@@ -17,7 +17,13 @@
         <link rel="stylesheet" href="css/templatemo-style.css">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
+		 <script src="js/jquery.min11.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		
+		<script src="js/vendor/bootstrap.min.js"></script>
+		
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
@@ -586,7 +592,48 @@
                     </div>
                 </div>
             </section>
-            
+            <section id="contact" class="content-section">
+               
+                <div id="contact-content">
+                    <div class="section-heading">
+                        <h1>留言<br><em>区</em></h1>
+                        <p>第一行 
+                        <br>第二行</p>
+                        
+                    </div>
+                    <div class="section-content">
+                        <form id="contact" action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="你的名字..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="你的邮箱..." required="">
+                                  </fieldset>
+                                </div>
+                                 <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="此时时间..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="你想说的话..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">发送留言</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
             <section class="footer">
                 <p>Copyright &copy; 2019 Company Name 
                 
@@ -595,13 +642,8 @@
         </div>
 
    
-   <script src="js/jquery.min11.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
+   
     
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
     <script>
         // Hide Header on on scroll down
@@ -645,6 +687,7 @@
     </script>
 
     <script src="js/jquery.min10.js" type="text/javascript"></script>
+
 
 </body>
 </html>
